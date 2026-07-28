@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down": { "model": "llmera_mekanism:block/mekanism_network_bridge" },
+    "facing=up": { "model": "llmera_mekanism:block/mekanism_network_bridge" },
+    "facing=north": { "model": "llmera_mekanism:block/mekanism_network_bridge" },
+    "facing=south": { "model": "llmera_mekanism:block/mekanism_network_bridge" },
+    "facing=west": { "model": "llmera_mekanism:block/mekanism_network_bridge" },
+    "facing=east": { "model": "llmera_mekanism:block/mekanism_network_bridge" }
+  }
+}

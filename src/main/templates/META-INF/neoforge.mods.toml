@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All Rights Reserved"
+
+[[mods]]
+modId="llmera_mekanism"
+version="${mod_version}"
+displayName="LLM Era Mekanism Integration"
+description='''Mekanism diagnostics, safe machine controls, logistics, and production-chain tools for LLM Era.'''
+
+[[dependencies.llmera_mekanism]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.llmera_mekanism]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.llmera_mekanism]]
+modId="llmera"
+type="required"
+versionRange="[${mod_version},)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.llmera_mekanism]]
+modId="mekanism"
+type="required"
+versionRange="[10.7.19,10.8)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.llmera_mekanism]]
+modId="jade"
+type="optional"
+versionRange="[15.10.5,16)"
+ordering="AFTER"
+side="BOTH"

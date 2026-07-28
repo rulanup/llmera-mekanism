@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "llmera_mekanism:block/mekanism_machine_connector" }
+  }
+}
